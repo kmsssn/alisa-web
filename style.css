@@ -1,0 +1,62 @@
+body{
+margin: 0;
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+header{
+    min-height:100% ; /*Высота блока*/
+    background-color:rgb(238, 129, 214); /*цвет фона*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    text-shadow: -2px 0px 7px #4e2626;
+    background-image: url("https://sakhalinzoo.ru/upload/photos/5ed9c4b3a4680_1591329971.jpg");
+
+}
+main
+{   
+    min-height:300px ; /*Высота блока*/
+    background-color:rgb(95, 107, 160); /*цвет фона*/
+    color: rgb(210, 177, 30);
+    text-align: left;
+    font-size: 50px;
+    padding: 10px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+}
+
+footer{
+    min-height:100px ; /*Высота блока*/
+    background-color:rgb(160, 95, 138); /*цвет фона*/
+    color: rgb(192, 210, 30);
+    text-align: right;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.social img{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
